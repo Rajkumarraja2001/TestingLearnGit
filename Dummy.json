@@ -1,0 +1,137 @@
+{
+    "company": "Tech Innovations Inc.",
+    "employees": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "position": "CEO",
+            "department": {
+                "name": "Executive",
+                "teams": [
+                    {
+                        "name": "Strategy",
+                        "members": [
+                            {
+                                "id": 101,
+                                "name": "Bob Smith",
+                                "role": "Strategist"
+                            },
+                            {
+                                "id": 102,
+                                "name": "Carol Lee",
+                                "role": "Market Analyst"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "projects": [
+                {
+                    "id": 1001,
+                    "name": "Global Expansion",
+                    "status": "Ongoing",
+                    "tasks": [
+                        {
+                            "id": 2001,
+                            "name": "Market Research",
+                            "completed": true
+                        },
+                        {
+                            "id": 2002,
+                            "name": "Feasibility Study",
+                            "completed": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Dave Wilson",
+            "position": "CTO",
+            "department": {
+                "name": "Technology",
+                "teams": [
+                    {
+                        "name": "Development",
+                        "members": [
+                            {
+                                "id": 201,
+                                "name": "Eva Martinez",
+                                "role": "Lead Developer"
+                            },
+                            {
+                                "id": 202,
+                                "name": "Frank Brown",
+                                "role": "Software Engineer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "QA",
+                        "members": [
+                            {
+                                "id": 301,
+                                "name": "Grace Taylor",
+                                "role": "QA Lead"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "projects": [
+                {
+                    "id": 1002,
+                    "name": "New Product Launch",
+                    "status": "Completed",
+                    "tasks": [
+                        {
+                            "id": 2003,
+                            "name": "Prototype Development",
+                            "completed": true
+                        },
+                        {
+                            "id": 2004,
+                            "name": "User Testing",
+                            "completed": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "offices": [
+        {
+            "location": "New York",
+            "address": "123 Tech Street, NY",
+            "departments": [
+                {
+                    "name": "Sales",
+                    "employees": [
+                        {
+                            "id": 301,
+                            "name": "Hannah Scott",
+                            "position": "Sales Manager"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "San Francisco",
+            "address": "456 Innovation Blvd, SF",
+            "departments": [
+                {
+                    "name": "Engineering",
+                    "employees": [
+                        {
+                            "id": 401,
+                            "name": "Ian White",
+                            "position": "Senior Engineer"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
