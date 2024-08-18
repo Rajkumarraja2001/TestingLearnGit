@@ -3,26 +3,19 @@ Basic Commands
 git init: Initialize a new Git repository.
 git clone [url]: Clone a repository from a URL to your local machine.
 git add [file]: Stage changes (add a file or files to the staging area).
-git commit -m "message": Commit the staged changes with a message.
+
 git status: Check the status of the working directory and staging area.
-git log: View the commit history.
-git diff: Show changes between commits, commit and working tree, etc.
-Branching and Merging
-git branch: List, create, or delete branches.
-git checkout [branch-name]: Switch to a specified branch.
-git merge [branch-name]: Merge a specified branch into the current branch.
+
+
 git rebase [branch-name]: Reapply commits on top of another base tip.
 git stash: Temporarily save changes in the working directory that are not ready to commit.
 Remote Repositories
 git remote: Manage remote connections.
 git fetch: Download objects and refs from another repository.
 git pull: Fetch from and integrate with another repository or a local branch.
-git push: Upload local repository content to a remote repository.
-Undoing Changes
-git reset [commit]: Reset the current HEAD to the specified state.
-git revert [commit]: Create a new commit that undoes the changes made in a previous commit.
-git checkout -- [file]: Discard changes in the working directory.
-Advanced Commands
+
+
+
 git cherry-pick [commit]: Apply the changes introduced by some existing commits.
 git blame [file]: Show what revision and author last modified each line of a file.
 git tag: Create, list, delete, or verify a tag object signed with GPG.
