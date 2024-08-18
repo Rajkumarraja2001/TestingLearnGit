@@ -1,4 +1,4 @@
-Here are some common Git commands and their purposes:
+Here are some common Git command and their purposes:
 Basic Commands
 git init: Initialize a new Git repository.
 git clone [url]: Clone a repository from a URL to your local machine.
